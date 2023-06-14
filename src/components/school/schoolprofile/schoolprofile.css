@@ -1,0 +1,88 @@
+.schoolprofile{
+    width: 100%;
+    min-height: 50vh;
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px 7px;
+    padding: 1rem;
+}
+.schoolprofile img{
+    object-fit: cover;
+    display: block;
+
+    width: 70%;
+    border: 1px solid gray;
+    height: 300px;
+}
+
+.schoolprofile-header h3{
+   margin: 7px 0;
+    background-color: rgb(3, 3, 83);  
+    width: 30%;
+   color: goldenrod;
+   padding: 7px 16px;
+   text-align: start;
+}
+.schoolprofile-paragraph{
+    text-align: start;
+    line-height: 24px;
+    margin-bottom: 7px;
+    width: 70%;
+    font-size: 14px;
+}
+.schoolprofile-list li{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: capitalize;
+}
+.schoolprofile-list li span{
+    font-weight: normal;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+.schoolprofile-list li a{
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.phone-no{
+    font-size: 14px;
+}
+.email-link {
+    text-transform: none;
+}
+
+@media screen and (max-width:900px) {
+    .schoolprofile img{
+        width: 100%;
+    }
+    .schoolprofile-paragraph{
+        width: 95%;
+    }
+    .schoolprofile-header h3{
+         width: 70%;
+     }
+    
+    
+}
+@media screen and (max-width:500px) {
+    .schoolprofile-paragraph{
+        width: 98%;
+    }
+    .schoolprofile img{
+        width: 100%;
+       
+    }
+    
+    
+}

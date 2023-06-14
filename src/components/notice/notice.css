@@ -1,0 +1,79 @@
+.noticeboard{
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    padding-bottom: 1rem;
+    
+}
+.noticeboard-wrapper{
+    width: 70%;
+    height: 100%;
+    
+    margin: 0 auto;
+    padding: 1rem 0 2rem 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.address{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.ref{
+    width: 70%;
+    display: flex;
+    gap: 5px;
+}
+.noticeboard-wrapper article{
+    width: 70%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.signing-off{
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #191919;    
+}
+
+.signing-off-name{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.signing-off-position{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+@media screen and (max-width:500px) {
+    .noticeboard-wrapper{
+        width: 100%;
+    }
+    .address{
+        width: 90%;
+    }
+    
+    .ref{
+        width: 90%;
+    }
+    .noticeboard-wrapper article{
+        width: 90%;
+        font-size: 14px;
+    }
+    .signing-off{
+        width: 90%;
+    }
+    
+}

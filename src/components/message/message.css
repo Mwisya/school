@@ -1,0 +1,112 @@
+.message{
+    width: 100%;
+    height: 100%;
+}
+.message h3{
+    text-transform: uppercase;
+}
+.message-wrapper{
+    width: 80%;
+    margin: 1rem auto;
+    height: 100%;
+    ;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.message-item{
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+    padding:3rem 1rem;
+}
+.message-item img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.message-snippet{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.message-snippet p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.message-link {
+    width: 150px;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.message-link:hover{
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1024px){
+    .message-wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px){
+    .message-wrapper{
+        width: 80%;
+    }
+    .message-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding:3rem 0.7rem;
+    }
+    .message-item img{
+        width: 100%;
+        height: 350px;
+    }
+    .message-snippet{
+        width: 100%;
+        text-align: start;
+    }
+    .message-snippet p{
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .message-wrapper{
+        width: 100%;
+    }
+    .message-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding:3rem 0.7rem;
+    }
+    .message-item img{
+        width: 100%;
+        height: 300px;
+    }
+  
+}

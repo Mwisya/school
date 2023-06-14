@@ -1,0 +1,7 @@
+export {default as Home} from './Home'
+export {default as AboutUs} from './AboutUs'
+export {default as ContactPage} from './ContactPage'
+export {default as AdmissionPage} from './AdmissionPage'
+export {default as NoticeBoard} from './NoticeBoard'
+export {default as BlogPage} from './BlogPage'
+export {default as GalleryPage} from './GalleryPage'

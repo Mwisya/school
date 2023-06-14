@@ -1,13 +1,131 @@
-body {
+*{
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+ 
+  background-color: #f1eef1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+ul{
+  list-style: none;
+}
+
+.flex-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.transition{
+  transition: 1s;
+}
+
+
+.layout{
+  width: 100vw;
+  display: flex;
+  gap: 10px;
+}
+.layout-aside{
+  width: 35%;
+  background-color: white;
+  height: auto;
+}
+.layout-data{
+  width: 65%;
+  height: 100%;
+  background-color: white;
+}
+
+
+/* //IMAGE MODAL STYLE */
+
+
+.modal{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  
+  
+  transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: all 300ms ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.modal.open{
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1);
+  visibility: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+}
+
+.modal > img{
+  width: 60%;
+  height: 60%;
+  filter: saturate(2);
+  -webkit-filter: saturate(2);
+  -moz-filter: saturate(2);
+  object-fit: contain;
+}
+.modal.open i{
+  color: crimson;
+  cursor: pointer;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 3rem;
+  padding:2px 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:900px) {
+  .layout-aside{
+    display: none;
+  }
+  .layout-data{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .modal > img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
 }

@@ -1,0 +1,53 @@
+.career-wrapper{
+    width: 100vw;
+    min-height: 35vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.career{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+}
+.career h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.career p{
+    font-size: 14px;
+}
+.apply-career{
+    padding: 1rem 0;
+}
+.apply-career button{
+    padding: 0.7rem 2rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:1px solid crimson;
+    border-radius: 20px;
+    color:  crimson;
+
+}
+.apply-career button:hover{
+    background-color: crimson;
+    color: white;
+}
+@media screen and (max-width:1024px){
+    .career{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .career{
+        width: 98%;
+    }
+}

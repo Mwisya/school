@@ -1,0 +1,64 @@
+.updates-container{
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.updates-container h3{
+    text-align: center;
+    padding: 10px;
+    text-transform:uppercase;
+    background-color: crimson;
+    color: white;
+}
+
+.updates{
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.update{
+    width: 400px;
+    height: 350px;
+    background-color: #f2f3f4;
+
+    position: relative;
+}
+.update img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    max-width: 80%;
+    background-color: #ffffff80;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:500px){
+    .updates{
+        display: flex;
+        flex-direction: column;
+    }
+}

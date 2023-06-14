@@ -1,0 +1,14 @@
+.blog{
+    width: 100vw;
+    min-height: 50vh;
+}
+.blog-wrapper{
+    width: 100%;
+}
+
+@media screen and (max-width:500px) {
+    .blog-wrapper{
+        width: 100vw;
+        min-height: 50vh;
+    }
+}

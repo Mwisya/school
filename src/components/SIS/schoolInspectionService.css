@@ -1,0 +1,63 @@
+.schoolinspection-report-container{
+    width: 100vw;
+    height: 100%;
+    padding: 1rem 0;
+}
+.schoolinspection-report-wrapper{
+    width: 80%;
+    height: 100%;
+    padding: 1rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.schoolinspection-report-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.schoolinspection-report-header span{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: #191919;
+    
+}
+.schoolinspection-report-header >svg{
+    font-size: 3rem;
+    color: goldenrod;
+}
+.schoolinspection-report{
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.download-btn{
+    
+    padding: 10px 16px;
+    margin-top: 1.5rem;
+    border: 1px solid gray;
+    background-color: rgba(255,255,255,0.5);
+    color: gray;
+}
+
+@media screen and (max-width:900px){
+    .schoolinspection-report-wrapper{
+        width: 95%;
+    }
+        
+}
+
+@media screen and (max-width:500px){
+    .schoolinspection-report-wrapper{
+        height: 50%;
+        padding: 5px;
+    }
+   
+    
+}

@@ -1,0 +1,16 @@
+.error{
+    width: 100vw;
+    padding: 5rem;
+    height: 40vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.error h3{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.error p{
+    color: #191919;
+}

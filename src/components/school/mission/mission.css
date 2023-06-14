@@ -1,0 +1,39 @@
+.mission{
+    width: 50%;
+    min-height: 10vh;
+    padding: 1rem;
+}
+.mission svg{
+    font-size: 3rem;
+    color: goldenrod;
+}
+.mission h3{
+    width: 98%;
+    margin-bottom: 7px;
+    text-align: start;
+}
+.mission p{
+    text-align: start;
+    font-size: 14px;
+    line-height: 24px;
+    width: 98%;
+}
+
+
+@media screen and (max-width:900px){
+    .mission{
+        width: 100%;
+    }
+    .mission h3{
+        width: 90%;
+    }
+    .mission p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .mission p{
+        width: 100%;
+    }
+}

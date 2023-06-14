@@ -1,0 +1,19 @@
+.school{
+    width: 100%;
+    height: 100%;
+}
+.school-wrapper{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction:column;
+}
+
+@media screen and (max-width:500px) {
+    .school-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    
+}
