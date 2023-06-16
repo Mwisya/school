@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/school/static/css/main.d33a1b93.css",
+    "main.js": "/school/static/js/main.4d20ef5c.js",
+    "static/js/787.6f758d81.chunk.js": "/school/static/js/787.6f758d81.chunk.js",
+    "static/media/student1.jpg": "/school/static/media/student1.6babf80141eb0f4fc6e8.jpg",
+    "static/media/principal.jpeg": "/school/static/media/principal.69320da349c95c19337b.jpeg",
+    "static/media/schoolbus1.jpeg": "/school/static/media/schoolbus1.5b1cb6e57325c32c2a36.jpeg",
+    "static/media/schoolbuilding.jpeg": "/school/static/media/schoolbuilding.c67f9e8b5262e7c3de98.jpeg",
+    "static/media/aerial.jpeg": "/school/static/media/aerial.6cb10fc8323ce1d56e3c.jpeg",
+    "static/media/swimming.jpg": "/school/static/media/swimming.82983cfc1c35e3d5e496.jpg",
+    "static/media/games.jpg": "/school/static/media/games.dd6b15a48a69b0d02d72.jpg",
+    "static/media/director.jpeg": "/school/static/media/director.acfe35675763513ebd3a.jpeg",
+    "static/media/welcome.jpeg": "/school/static/media/welcome.d32041eb85e477014e98.jpeg",
+    "static/media/teacher.jpeg": "/school/static/media/teacher.ccd960d4e6e7932bac79.jpeg",
+    "static/media/gamespitch.jpg": "/school/static/media/gamespitch.2eab40ee4b0dc2aaff54.jpg",
+    "static/media/cbc.jpg": "/school/static/media/cbc.a1deb97ca209b4366d70.jpg",
+    "static/media/gallery5.jpg": "/school/static/media/gallery5.bfe888fc1e08845fbfd5.jpg",
+    "static/media/basketball1.jpeg": "/school/static/media/basketball1.65ceba0e8e9d82097949.jpeg",
+    "static/media/computer.jpg": "/school/static/media/computer.399e737d74d0e7e5f103.jpg",
+    "static/media/basketball.jpg": "/school/static/media/basketball.b55b98bb884e3aef10ee.jpg",
+    "static/media/lib.webp": "/school/static/media/lib.f68924fd70463087d224.webp",
+    "static/media/campbridge.jpg": "/school/static/media/campbridge.7ffa69e099d867ecb193.jpg",
+    "static/media/study.webp": "/school/static/media/study.4740ee0af1e4afc0d067.webp",
+    "static/media/edexcel.jpg": "/school/static/media/edexcel.d4ea24db380931e0b752.jpg",
+    "static/media/gallery.jpg": "/school/static/media/gallery.2bc6e26d56206b8a74b3.jpg",
+    "static/media/gallery4.jpg": "/school/static/media/gallery4.6f685701e63a383cc387.jpg",
+    "index.html": "/school/index.html",
+    "main.d33a1b93.css.map": "/school/static/css/main.d33a1b93.css.map",
+    "main.4d20ef5c.js.map": "/school/static/js/main.4d20ef5c.js.map",
+    "787.6f758d81.chunk.js.map": "/school/static/js/787.6f758d81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d33a1b93.css",
+    "static/js/main.4d20ef5c.js"
+  ]
+}
